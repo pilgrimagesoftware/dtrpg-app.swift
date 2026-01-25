@@ -1,2 +1,3 @@
-# dtrpg-client-swift
-Swift client for DriveThruRPG
+# dtrpg-app-swift
+
+Swift application for DriveThruRPG
