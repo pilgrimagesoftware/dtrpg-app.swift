@@ -1,8 +1,6 @@
 ## Purpose
 Define how the Swift macOS application manages authentication session state so launch, expiry, recovery, and flow transitions behave predictably for signed-in users.
-
 ## Requirements
-
 ### Requirement: The macOS app must define authentication session state handling
 The Swift macOS application MUST define how it establishes, stores, invalidates, and recovers authentication session state while preserving token lifecycle and auth-failure meanings owned by the API repository.
 
@@ -24,3 +22,4 @@ The Swift macOS application MUST define how authentication session changes affec
 #### Scenario: Session requires user recovery
 - **WHEN** a session is invalidated because the API reports expired, invalid, unauthenticated, or unauthorized auth state
 - **THEN** the app exposes a reauthentication-required state that future UI flows can observe
+
